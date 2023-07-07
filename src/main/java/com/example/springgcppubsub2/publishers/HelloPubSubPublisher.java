@@ -17,6 +17,7 @@ public class HelloPubSubPublisher extends PubSubPublisher {
 
     @Override
     protected String topic() {
+//       topic名
         return "hello-pubsub";
     }
 
