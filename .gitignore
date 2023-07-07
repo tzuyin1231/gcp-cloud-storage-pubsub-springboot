@@ -1,10 +1,18 @@
-HELP.md
+
+# Code #
+!**/src/main/**
+!**/src/test/**
+
+# Maven #
 target/
 !.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
 
-### STS ###
+# Gradle #
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# STS #
 .apt_generated
 .classpath
 .factorypath
@@ -13,21 +21,28 @@ target/
 .springBeans
 .sts4-cache
 
-### IntelliJ IDEA ###
+# IntelliJ IDEA #
 .idea
 *.iws
 *.iml
 *.ipr
 
-### NetBeans ###
+# NetBeans #
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
-### VS Code ###
+# VS Code #
+bin/
 .vscode/
+
+# SpringBoot Config #
+
+# Mac #
+.DS_Store
+
+# build #
+/src/asciidoc/build
